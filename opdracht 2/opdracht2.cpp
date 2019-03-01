@@ -58,21 +58,6 @@ int main(int argc, char *argv[]){
     }
 
 
-
-
-
-
-//    read(fd1, buf, 1);
-//    buf[13] = '\0';
-//    cout << "Buf: " << buf << endl;
-//    lseek(fd1, 8, SEEK_SET);
-//
-//    read(fd1, buf, 1);
-//    buf[13] = '\0';
-//    cout << "Buf: " << buf << endl;
-
-
-
     close(fd1);
     close(fd2);
 
